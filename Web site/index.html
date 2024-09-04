@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev With Mahesh</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id='main'>
+        <div class="container">
+            <nav>
+                <img src="img/logo.png" alt="logo"/>
+                <ul class="nav-list">
+                    <li>
+                        <a href="#">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Services
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Contact
+                        </a>
+                    </li>
+                    <li>
+                        <button class="btn btn-secondary">
+                            +9471 234 5678
+                        </button>
+                    </li>
+                </ul>
+                <img src="img/menu.svg" alt="menu-icon" class="menu-btn"/>
+            </nav>
+            <div class="main-content">
+                <h1 class="intro-heading">
+                    Responsive Website
+                </h1>
+                <h1 class="main-heading">
+                    by Mahesh
+                </h1>
+                <p>
+                    If you want source code just see description and click the link.
+                </p>
+                <button class="btn btn-primary">
+                    Primary Button
+                </button>
+            </div>                
+        </div>
+    </div>
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h3>
+                    My Services
+                </h3>
+                <div class="line">
+                </div>
+            </div>
+            <div class="services">                
+                <div class="service">
+                    <img src="./img/service-1.png" alt="service-1"/>
+                    <h3>
+                        Web Site Design
+                    </h3>
+                    <p>
+                        I am able to work with HTML, CSS, JavaScript, Bootstrap
+                        in order to make fully responsive Websites.
+                    </p> 
+                </div>    
+                <div class="service">
+                    <img src="./img/service-2.png" alt="service-1"/>
+                    <h3>
+                        Web Apps Design
+                    </h3>
+                    <p>
+                        I am able to work with React, Express, Node.js, MongoDB,
+                        Neo4J, MySQL, SQLite and Firebase.
+                    </p> 
+                </div>
+                <div class="service">
+                <img src="./img/service-3.png" alt="service-1"/>
+                <h3>
+                    Backend Development
+                </h3>
+                <p>
+                    I familiar with JavaScript, Python, Java, C++, NodeJS, ExpressJS,
+                    Flask, Spring Boot,  RESTful API, GraphQL.
+                </p> 
+                </div> 
+            </div>          
+        </div>
+    </section>
+    <section id="testimonial">
+        <div class="container">
+            <img src="./img/quote.png" alt="quote"/>
+            <h1>
+                "You can customize this template as you want. O.Also feel free to ask me any questions. I'm available to help you in fiver ,
+                by me a coffee..
+                "
+            </h1>
+            <div class="profile">
+                <img src="./img/profile.png" alt="profile" width="50px" />
+                <h4>
+                    Mahesh
+                </h4>                
+            </div>
+        </div>
+    </section>
+    <section id="about-us">
+        <div class="container">
+            <div class="about-content">
+                <h4>
+                    ABOUT US
+                </h4>
+                <h1>
+                    If you really can't afford the price?
+                </h1>
+                <p>
+                    Just contact me via fiver. I will help you. If you not familiar with fiver, 
+                    just try other social media platforms. We all are human beings. We can help each other.
+                </p>                
+            </div>
+            <div class="about-image">
+                <img src="./img/about.png" alt="about"/>
+            </div>
+        </div>
+    </section>
+    <section id="questions">
+        <div class="container">
+            <h1>
+                QUESTIONS ?
+            </h1>
+            <p>
+                If you have any questions, feel free to ask us.
+                I am available to help you.
+            </p>
+            <button class="btn btn-primary">
+                Contact Me
+            </button>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <ul class="footer-links">
+                <li>
+                    <a href="#">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Services
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+            <img src="./img/logo-colored.png" alt="footer logo"/>
+            <p>
+                Created by Mahesh.
+            </p>
+        </div>
+    </footer>
+    <script>
+        const navBtn = document.querySelector('.menu-btn');
+        const navList = document.querySelector('.nav-list');
+        navBtn.addEventListener('click', () => {
+            navList.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
